@@ -2,6 +2,11 @@
 Scripts and config to run a RaspberryPi with HDMI monitor as a plublic display
 
 
+## CAD files for plywood display fascia 
+
+Designed to fit Dell S2419HM 23.8 Inch IPS Anti-Glare LED-backlit LCD
+
+**TBC**
 
 ## Run google-chrome is kiosk mode 
 
@@ -35,6 +40,6 @@ Off at 8pm on at 7am
 
 ## Example display
 
-![display](display.jpg)
+![](https://blog.openenergymonitor.org/images/cydynni-display-3-shopfront.jpg)
 
 
