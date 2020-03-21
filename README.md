@@ -1,5 +1,7 @@
 # raspi-dashboard-display
-Scripts and config to run a RaspberryPi with HDMI monitor as a plublic display
+Scripts and config to run a RaspberryPi with HDMI monitor as a plublic display.
+
+*Tested on Raspbian Buster*
 
 
 ## CAD files for plywood display fascia 
