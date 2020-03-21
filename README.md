@@ -13,7 +13,7 @@ Designed to fit Dell S2419HM 23.8 Inch IPS Anti-Glare LED-backlit LCD
 ```
 #!/bin/bash
 export DISPLAY=":0"
-sudo -u pi chromium-browser --noerrdialogs --disable-session-crashed-bubble --disable-infobars --start-fullscreen --kiosk  https://emoncms.org/dashboard/view?id=XX?embed=1?apikey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+sudo -u pi chromium-browser --incognito --noerrdialogs --disable-session-crashed-bubble --disable-infobars --start-fullscreen --kiosk  https://emoncms.org/dashboard/view?id=XX?embed=1?apikey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 Save as `start.sh` and make executable and add entry to `/etc/rc.local` to run on boot
@@ -25,6 +25,23 @@ Use `Alt + F4` to exit kiosk mode
 `sudo apt-get install uncluttered`
 
 add `unclutter -idle 0 &` to `/etc/rc.local`
+
+## Refresh the page
+
+`sudo apt-get install xdotool` 
+
+Create a bash file called `refresh.sh`
+
+```
+#!/bin/bash
+DISPLAY=:0 xdotool key F5
+```
+
+run every 1hr via cron job
+
+`$ crontab -e`
+
+`0     *     *    *    * /home/pi/refresh.sh`
 
 ## Turn off the display during the night 
 
