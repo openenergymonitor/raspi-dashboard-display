@@ -6,9 +6,7 @@ Scripts and config to run a RaspberryPi with HDMI monitor as a plublic display.
 
 ## CAD files for plywood display fascia 
 
-Designed to fit Dell S2419HM 23.8 Inch IPS Anti-Glare LED-backlit LCD
-
-**TBC**
+Designed to fit Dell S2419HM 23.8 Inch IPS Anti-Glare LED-backlit LCD. See .zip file in repo for CAD file download
 
 ## Run google-chrome is kiosk mode 
 
