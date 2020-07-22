@@ -22,7 +22,7 @@ Use `Alt + F4` to exit kiosk mode
 
 ## Hide the mouse 
 
-`sudo apt-get install uncluttered`
+`sudo apt-get install unclutter`
 
 add `unclutter -idle 0 &` to `/etc/rc.local`
 
