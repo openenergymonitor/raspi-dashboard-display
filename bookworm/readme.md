@@ -24,4 +24,19 @@ chromium = chromium-browser https://URL  --noerrdialogs --disable-infobars --kio
 
 Default scripts assume using HDMI port closest to power port 
 
+## Read-only file system 
+
+`sudo raspi-config`
+
+Select Performance options
+Select Overlay File System
+
+- Confirm that you would like to enable the overlay file system
+- Confirm that you would like to write-protect the boot partition
+- Confirm reboot
+
+To enable read-write FW
+
+`sudo mount -o remount,rw /boot`
+
 
