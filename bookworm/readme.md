@@ -8,10 +8,12 @@ Tested on RasPi4
 
 add 
 
+```
 [autostart]
 screensaver = false
 dpms = false
 chromium = chromium-browser https://URL  --noerrdialogs --disable-infobars --kiosk --start-maximized --start-fullscreen --no-first-run --ozone-platform=wayland
+```
 
 ## Turn display off at night 
 
