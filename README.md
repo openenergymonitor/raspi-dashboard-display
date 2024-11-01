@@ -10,6 +10,12 @@ Designed to fit Dell S2419HM 23.8 Inch IPS Anti-Glare LED-backlit LCD. See .zip 
 
 ## Run google-chrome is kiosk mode 
 
+### Easy Option 
+
+Use: https://github.com/guysoft/FullPageOS
+
+### Advanced Option
+
 ```
 #!/bin/bash
 export DISPLAY=":0"
