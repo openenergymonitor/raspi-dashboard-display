@@ -13,6 +13,11 @@ Designed to fit Dell S2419HM 23.8 Inch IPS Anti-Glare LED-backlit LCD. See .zip 
 ### Easy Option 
 
 Use: https://github.com/guysoft/FullPageOS
+Tested: 2025-01-28_2024-11-19-fullpageos-bookworm-armhf-lite-0.14.0
+
+Set URL to display in `~/boot/firmware/fullpageos.txt`
+Rotate display by changing config in: `~/scripts/start_gui` 
+
 
 ### Advanced Option
 
